@@ -1,10 +1,12 @@
 import { ChildComp } from "./_components/comp";
 
+export const dynamic = 'force-dynamic';
+
 const fetchUsername = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("smrdotgg");
-    }, 2000);
+    }, 10000);
   });
 };
 
