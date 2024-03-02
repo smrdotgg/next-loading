@@ -6,7 +6,7 @@ const fetchUsername = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("smrdotgg");
-    }, 10000);
+    }, 2000);
   });
 };
 
